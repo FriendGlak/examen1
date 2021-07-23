@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/examen1/static/css/main.1cd60ef5.chunk.css",
+    "main.js": "/examen1/static/js/main.742c37fb.chunk.js",
+    "main.js.map": "/examen1/static/js/main.742c37fb.chunk.js.map",
+    "runtime-main.js": "/examen1/static/js/runtime-main.f8139ea1.js",
+    "runtime-main.js.map": "/examen1/static/js/runtime-main.f8139ea1.js.map",
+    "static/css/2.4be38407.chunk.css": "/examen1/static/css/2.4be38407.chunk.css",
+    "static/js/2.616057c2.chunk.js": "/examen1/static/js/2.616057c2.chunk.js",
+    "static/js/2.616057c2.chunk.js.map": "/examen1/static/js/2.616057c2.chunk.js.map",
+    "index.html": "/examen1/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/examen1/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.1cd60ef5.chunk.css.map": "/examen1/static/css/main.1cd60ef5.chunk.css.map",
+    "static/js/2.616057c2.chunk.js.LICENSE.txt": "/examen1/static/js/2.616057c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8139ea1.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.616057c2.chunk.js",
+    "static/css/main.1cd60ef5.chunk.css",
+    "static/js/main.742c37fb.chunk.js"
+  ]
+}
