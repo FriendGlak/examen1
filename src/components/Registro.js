@@ -1,9 +1,10 @@
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useForm } from "../hooks/useForm";
 import "../styles/Registro.css";
 import { registroEmailPasswordNombre } from "../actions/action";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 export const Registro = () => {
   const dispatch = useDispatch();
@@ -21,6 +22,7 @@ export const Registro = () => {
     e.preventDefault();
     console.log(nombre, pass, email);
     dispatch(registroEmailPasswordNombre(email, pass, nombre));
+    
   };
 
   return (
@@ -70,9 +72,7 @@ export const Registro = () => {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
-          Registrarse
-        </Button>
+        <Link to="/">Enviar</Link>
       </Form>
     </div>
   );

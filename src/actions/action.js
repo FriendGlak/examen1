@@ -39,7 +39,7 @@ export const loginEmailPassword = (email, password) => {
 //Sincrónica
 export const login = (id, displayName) => {
   return {
-    type: types.login,
+    type: types.Login,
     payload: {
       id,
       displayName,

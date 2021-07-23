@@ -2,12 +2,12 @@ import { types } from "../types/types";
 
 export const registroReducer = (state = {}, action) => {
   switch (action.type) {
-    case types.login:
+    case types.Login:
       return {
         id: action.payload.id,
         name: action.payload.displayName,
       };
-    case types.logout:
+    case types.Logout:
       return {};
     default:
       return state;
